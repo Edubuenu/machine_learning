@@ -25,7 +25,7 @@ data4 = {'a' : 0., 'b' : 1., 'c' : 2.}
 s4 = pd.Series(data4, index = ['b','c','d','a'])
 print(s4)
 
-print('-'*30)
+print('-'* 30)
 
 s = pd.Series([1, 2, 3, 4, 5], index = ['a','b','c','d','e'])
 
