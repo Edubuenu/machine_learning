@@ -27,7 +27,7 @@ print(iris.target.shape)
 x = iris.data
 #Armazena o vetor de resposta em “y”
 y = iris.target
-#Primeira dimensão = (LINHAS) ou seja, número de observações
+#Primeira dimensão = (LINHAS) ou seja, número de observações.
 #Segunda dimensões = (COLUNAS) ou seja, número de features.
 print(x.shape)
 #Verifique a forma da resposta (dimensão única correspondente ao número de observação)
