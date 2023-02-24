@@ -22,7 +22,7 @@ x = irs.iloc[:, :-1].values
 y = irs.iloc[:, 4].values
 
 from sklearn.model_selection import train_test_split  
-#cria as divisões de treinamento e teste
+#cria as divisões de treinamento e teste.
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.20)
 
 
