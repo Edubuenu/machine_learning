@@ -21,7 +21,7 @@ scaler.fit(x_train)
 
 x_train = scaler.transform(x_train)  
 x_test = scaler.transform(x_test)
-#importa o numpy como np
+#importa o numpy como np.
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier  
 error = []
